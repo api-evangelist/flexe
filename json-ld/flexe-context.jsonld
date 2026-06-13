@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "flexe": "https://www.flexe.com/vocab/",
+
+    "WarehouseProgram": "flexe:WarehouseProgram",
+    "FulfillmentOrder": "flexe:FulfillmentOrder",
+    "InventoryItem": "flexe:InventoryItem",
+    "FulfillmentNode": "flexe:FulfillmentNode",
+    "WarehouseOperator": "flexe:WarehouseOperator",
+    "ShipmentEvent": "flexe:ShipmentEvent",
+    "ReceivingOrder": "flexe:ReceivingOrder",
+    "ReturnOrder": "flexe:ReturnOrder",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "identifier": "schema:identifier",
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+
+    "programId": {
+      "@id": "flexe:programId",
+      "@type": "xsd:string"
+    },
+    "orderId": {
+      "@id": "flexe:orderId",
+      "@type": "xsd:string"
+    },
+    "sku": {
+      "@id": "flexe:sku",
+      "@type": "xsd:string"
+    },
+    "quantity": {
+      "@id": "flexe:quantity",
+      "@type": "xsd:integer"
+    },
+    "warehouseId": {
+      "@id": "flexe:warehouseId",
+      "@type": "xsd:string"
+    },
+    "nodeId": {
+      "@id": "flexe:nodeId",
+      "@type": "xsd:string"
+    },
+    "orderStatus": {
+      "@id": "flexe:orderStatus",
+      "@type": "xsd:string",
+      "@comment": "One of: pending, processing, shipped, delivered, cancelled"
+    },
+    "eventType": {
+      "@id": "flexe:eventType",
+      "@type": "xsd:string",
+      "@comment": "One of: order_created, order_shipped, order_delivered, inventory_updated, receiving_completed"
+    },
+    "eventTimestamp": {
+      "@id": "flexe:eventTimestamp",
+      "@type": "xsd:dateTime"
+    },
+    "trackingNumber": {
+      "@id": "flexe:trackingNumber",
+      "@type": "xsd:string"
+    },
+    "carrier": {
+      "@id": "flexe:carrier",
+      "@type": "xsd:string"
+    },
+    "locationCode": {
+      "@id": "flexe:locationCode",
+      "@type": "xsd:string"
+    },
+    "integrationMode": {
+      "@id": "flexe:integrationMode",
+      "@type": "xsd:string",
+      "@comment": "One of: api, edi, xml"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://www.flexe.com",
+      "@type": "schema:Organization",
+      "name": "Flexe",
+      "description": "On-demand warehousing and logistics infrastructure connecting retailers and brands to a network of 800+ warehouse operators across North America.",
+      "url": "https://www.flexe.com"
+    },
+    {
+      "@id": "https://api.flexe.com",
+      "@type": "schema:WebAPI",
+      "name": "Flexe API",
+      "description": "REST API for managing warehouse programs, inventory, fulfillment orders, and supply chain operations across Flexe's distributed fulfillment network.",
+      "url": "https://api.flexe.com",
+      "schema:documentation": "https://developer-sandbox.flexe.com"
+    }
+  ]
+}
