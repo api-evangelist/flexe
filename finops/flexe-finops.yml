@@ -1,0 +1,37 @@
+name: Flexe FinOps
+description: Financial operations guidance for managing costs associated with Flexe's on-demand warehousing and logistics platform. Flexe uses elastic economic models where warehousing costs scale with actual usage — storage occupancy, order throughput, and labor — rather than fixed infrastructure commitments.
+url: https://www.flexe.com/contact
+created: '2026-06-13'
+modified: '2026-06-13'
+model:
+  type: usage-based
+  description: Flexe's pricing follows an elastic model tied to actual warehousing and fulfillment usage. Costs are driven by storage volume (pallet positions, square footage), inbound/outbound order units, and labor. There are no public per-unit rates; all costs are negotiated in enterprise agreements.
+costDrivers:
+  - name: Storage
+    description: Costs based on pallet positions or square footage occupied in warehouse network nodes. Charges apply per period (typically monthly) based on peak or average occupancy.
+    unit: pallet-position or square-foot per period
+  - name: Inbound Receiving
+    description: Labor and handling charges for receiving inbound shipments into warehouse locations.
+    unit: per receipt or per unit
+  - name: Outbound Fulfillment
+    description: Pick, pack, and ship charges for outbound orders including eCommerce fulfillment and retail distribution.
+    unit: per order or per unit
+  - name: Value-Added Services
+    description: Additional charges for kitting, labeling, repackaging, and other value-added warehouse services.
+    unit: per service event
+  - name: Transportation
+    description: Last-mile and freight charges for same-day delivery and network capacity programs where Flexe manages transportation.
+    unit: per shipment
+optimization:
+  - strategy: Right-size network footprint
+    description: Use Flexe's performance insights to identify underperforming warehouse nodes and consolidate inventory to reduce storage costs.
+  - strategy: Align capacity to seasonal demand
+    description: Leverage the on-demand model to scale warehousing capacity up during peak seasons and release capacity during slow periods to avoid paying for idle space.
+  - strategy: Monitor order fulfillment costs
+    description: Track per-order fulfillment costs via the API and performance dashboard to identify high-cost nodes or SKU profiles that could be optimized.
+  - strategy: Negotiate volume tiers
+    description: Higher API and fulfillment volumes may unlock better per-unit rates in enterprise agreements. Review periodically against actual throughput.
+contacts:
+  - type: Sales
+    url: https://www.flexe.com/contact
+    description: Contact Flexe sales team for custom pricing negotiations and contract reviews.

@@ -1,0 +1,59 @@
+aid: flexe
+name: Flexe
+description: Flexe provides on-demand warehousing and logistics infrastructure for the world's leading retailers and brands. Its REST APIs enable integration with a network of 800+ warehouse operators across North America to manage warehouse programs, inventory, fulfillment orders, and supply chain flexibility across distributed fulfillment nodes via a single technology platform supporting API, EDI, and XML integrations.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/flexe/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Warehousing
+  - Logistics
+  - Fulfillment
+  - Supply Chain
+  - Inventory
+  - On-Demand
+apis:
+  - aid: flexe:flexe-api
+    name: Flexe API
+    description: REST API for managing warehouse programs, inventory, fulfillment orders, and supply chain operations across Flexe's distributed network of warehouse operators in North America. Supports integration via API key authentication and enables order creation, inventory tracking, and fulfillment event processing.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer-sandbox.flexe.com
+    baseURL: https://api.flexe.com
+    tags:
+      - Warehousing
+      - Fulfillment
+      - Inventory
+      - Orders
+      - Logistics
+    properties:
+      - type: Documentation
+        url: https://developer-sandbox.flexe.com
+      - type: Authentication
+        url: https://developer-sandbox.flexe.com/tokens
+common:
+  - type: Website
+    url: https://www.flexe.com
+  - type: Documentation
+    url: https://developer-sandbox.flexe.com
+  - type: GitHubOrg
+    url: https://github.com/flexe-inc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/flexe
+  - type: Blog
+    url: https://www.flexe.com/blog
+  - type: Pricing
+    url: https://www.flexe.com/contact
+  - type: StatusPage
+    url: https://www.flexe.com
+  - type: X
+    url: https://twitter.com/flexe
+  - type: Plans
+    url: plans/flexe-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/flexe-rate-limits.yml
+  - type: FinOps
+    url: finops/flexe-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

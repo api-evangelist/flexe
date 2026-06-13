@@ -1,0 +1,20 @@
+name: Flexe API Rate Limits
+description: Flexe does not publicly document specific API rate limit thresholds. As an enterprise B2B platform, rate limits are determined by account tier and negotiated as part of enterprise service agreements. Standard HTTP 429 Too Many Requests responses are returned when limits are exceeded.
+url: https://developer-sandbox.flexe.com
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Default Enterprise Rate Limit
+    description: Rate limits are applied per API key and are set as part of the enterprise service agreement. Specific limits are not publicly documented and vary by account and integration type.
+    type: account
+    enforcement: HTTP 429 Too Many Requests response returned when limit exceeded
+    scope: Per API key
+    notes:
+      - Contact Flexe account team for specific rate limit details
+      - Limits apply across all API endpoints
+      - Retry-After header may be included in 429 responses
+      - Rate limits are enforced in the sandbox and production environments separately
+authentication:
+  type: API Key
+  description: API key-based authentication passed via request headers. Keys are generated and managed through the Flexe Developer Portal at developer-sandbox.flexe.com/tokens.
+  tokenEndpoint: https://developer-sandbox.flexe.com/tokens

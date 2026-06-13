@@ -1,0 +1,25 @@
+name: Flexe Plans and Pricing
+description: Flexe operates as an enterprise B2B logistics platform with custom pricing based on warehousing network usage, fulfillment volumes, and program type. Pricing is not publicly listed and is negotiated directly with Flexe based on business requirements. API access is provided as part of an enterprise account.
+url: https://www.flexe.com/contact
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Enterprise
+    description: Custom enterprise agreements covering on-demand warehousing capacity, fulfillment programs, and API access across Flexe's 800+ warehouse network in North America. Includes eCommerce fulfillment, retail distribution, same-day delivery, and network capacity programs. Pricing is based on storage, throughput, and program scope negotiated directly with Flexe.
+    url: https://www.flexe.com/contact
+    type: Enterprise
+    access: paid
+    pricing:
+      model: custom
+      description: Custom pricing negotiated per enterprise agreement based on warehousing capacity, order volume, and program type. No self-serve pricing available publicly.
+    features:
+      - API access via API key authentication
+      - Access to Flexe Developer Portal
+      - eCommerce fulfillment
+      - Retail distribution
+      - Same-day delivery programs
+      - Network capacity programs
+      - EDI and XML integration options
+      - Performance insights dashboard
+      - 800+ warehouse operator network access
+      - North America coverage (US and Canada)
