@@ -6,5 +6,13 @@
   "description": "Blog posts from Flexe covering on-demand warehousing, logistics, supply chain flexibility, fulfillment operations, and omnichannel distribution.",
   "notes": "Blog at www.flexe.com/blog returned HTTP 403 during fetch. No RSS/Atom feed confirmed. Posts list is unavailable programmatically.",
   "posts": [],
-  "fetched": "2026-06-13"
+  "fetched": "2026-06-14T20:42:17Z",
+  "repo": "flexe",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/flexe",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0
 }
