@@ -1,7 +1,7 @@
 aid: flexe
 name: Flexe
 description: Flexe provides on-demand warehousing and logistics infrastructure for the world's leading retailers and brands. Its REST APIs enable integration with a network of 800+ warehouse operators across North America to manage warehouse programs, inventory, fulfillment orders, and supply chain flexibility across distributed fulfillment nodes via a single technology platform supporting API, EDI, and XML integrations.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/flexe/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -17,7 +17,7 @@ apis:
   - aid: flexe:flexe-api
     name: Flexe API
     description: REST API for managing warehouse programs, inventory, fulfillment orders, and supply chain operations across Flexe's distributed network of warehouse operators in North America. Supports integration via API key authentication and enables order creation, inventory tracking, and fulfillment event processing.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer-sandbox.flexe.com
     baseURL: https://api.flexe.com
     tags:
