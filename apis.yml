@@ -32,6 +32,8 @@ apis:
       - type: Authentication
         url: https://developer-sandbox.flexe.com/tokens
 common:
+  - type: DomainSecurity
+    url: security/flexe-domain-security.yml
   - type: Website
     url: https://www.flexe.com
   - type: Documentation
