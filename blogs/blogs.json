@@ -2,11 +2,10 @@
   "repo": "flexe",
   "feeds": [
     {
-      "source": "https://www.flexe.com/blog",
-      "saved": 0,
-      "error": "HTTP 403 Forbidden"
+      "source": "https://www.linkedin.com/company/flexe",
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:41:06Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
