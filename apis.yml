@@ -36,6 +36,12 @@ apis:
       - Warehousing
       - Fulfillment
       - Inventory
+      - Order
+      - Logistics
+    tags_raw:
+      - Warehousing
+      - Fulfillment
+      - Inventory
       - Orders
       - Logistics
     properties:
