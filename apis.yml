@@ -1,6 +1,17 @@
 aid: flexe
 name: Flexe
 description: Flexe provides on-demand warehousing and logistics infrastructure for the world's leading retailers and brands. Its REST APIs enable integration with a network of 800+ warehouse operators across North America to manage warehouse programs, inventory, fulfillment orders, and supply chain flexibility across distributed fulfillment nodes via a single technology platform supporting API, EDI, and XML integrations.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: enterprise
   onboarding: unknown
