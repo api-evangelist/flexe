@@ -1,0 +1,27 @@
+# Front Door AI Index — flexe — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: flexe
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.flexe.com
+  final_host: flexe.com
+  ownership: own
+  owner: flexe
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 0.9
+  words: 2219
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 7
+  top_terms:
+    intelligence: 6
+    AI: 2
+    automation: 1
