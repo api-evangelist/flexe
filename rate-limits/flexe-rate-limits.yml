@@ -1,3 +1,8 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
+generated: '2026-06-13'
 name: Flexe API Rate Limits
 description: Flexe does not publicly document specific API rate limit thresholds. As an enterprise B2B platform, rate limits are determined by account tier and negotiated as part of enterprise service agreements. Standard HTTP 429 Too Many Requests responses are returned when limits are exceeded.
 url: https://developer-sandbox.flexe.com

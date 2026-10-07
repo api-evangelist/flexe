@@ -1,3 +1,8 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
+generated: '2026-06-13'
 name: Flexe Plans and Pricing
 description: Flexe operates as an enterprise B2B logistics platform with custom pricing based on warehousing network usage, fulfillment volumes, and program type. Pricing is not publicly listed and is negotiated directly with Flexe based on business requirements. API access is provided as part of an enterprise account.
 url: https://www.flexe.com/contact
