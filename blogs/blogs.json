@@ -2,6 +2,27 @@
   "repo": "flexe",
   "feeds": [
     {
+      "source": "https://www.flexe.com/blog",
+      "feed_url": "https://www.flexe.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://flexe.com/articles/",
+      "feed_url": "https://flexe.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://flexe.com/articles/feed/",
+      "feed_url": "https://flexe.com/articles/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.linkedin.com/company/flexe",
       "feed_url": "https://www.linkedin.com/company/flexe",
       "title": "",
@@ -9,6 +30,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 0
 }
