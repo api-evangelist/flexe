@@ -64,32 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flexe provides on-demand warehousing and logistics infrastructure for the world's leading retailers and brands. Its platform connects a network of 800+ warehouse operators across North America, enabling enterprises to manage warehouse programs, inventory, fulfillment orders, and supply chain flexibility across distributed fulfillment nodes via a single technology integration.
+Flexe provides on-demand warehousing and logistics infrastructure for the world's leading retailers and brands. Its REST APIs enable integration with a network of 800+ warehouse operators across North America to manage warehouse programs, inventory, fulfillment orders, and supply chain flexibility across distributed fulfillment nodes via a single technology platform supporting API, EDI, and XML integrations.
 
-**Website:** https://www.flexe.com  
-**Developer Portal:** https://developer-sandbox.flexe.com  
-**GitHub:** https://github.com/flexe-inc  
-**LinkedIn:** https://www.linkedin.com/company/flexe  
-**X:** https://twitter.com/flexe  
-**Blog:** https://www.flexe.com/blog  
+**Areas:** Warehousing · Logistics · Fulfillment · Supply Chain · Inventory · On-Demand
 
-## APIs
+## Flexe on APIs.io
 
-- **Flexe API** - REST API for managing warehouse programs, inventory, and fulfillment orders. Authenticated via API key. Developer portal and token management at developer-sandbox.flexe.com.
+Everything profiled for Flexe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flexe/](https://apis.io/providers/flexe/)** — or go straight to one of the APIs or properties below.
 
-## Programs
+### APIs (1)
 
-- eCommerce Fulfillment
-- Retail Distribution
-- Same-Day Delivery
-- Network Capacity
+- [Flexe API](https://apis.io/apis/flexe/flexe-api/) — REST API for managing warehouse programs, inventory, fulfillment orders, and supply chain operations across Flexe's distributed network of warehouse…
 
-## Integration Options
+### Published properties
 
-- REST API
-- EDI
-- XML / CSV
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## About this Profile
+#### JSON-LD (1)
 
-This APIs.json profile was created by [API Evangelist](https://apievangelist.com) to catalog Flexe's public API surface.
+Linked-data contexts for the provider's vocabulary.
+
+- [Flexe Context](https://apis.io/jsonld/flexe/flexe-context/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flexe Domain Security](https://apis.io/security/flexe/flexe-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Flexe Plans Pricing](https://apis.io/plans/flexe/flexe-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Flexe Rate Limits](https://apis.io/rate-limits/flexe/flexe-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Flexe Finops](https://apis.io/finops/flexe/flexe-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.flexe.com)
+- [Documentation](https://developer-sandbox.flexe.com)
+- [Pricing](https://www.flexe.com/contact)
+- [Blog](https://flexe.com/articles/)
+- [Status](https://www.flexe.com)
+
+## API Evangelist rating
+
+**Kin Score 21.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 15.8 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flexe/](https://apis.io/providers/flexe/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flexe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flexe/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
